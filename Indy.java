@@ -31,9 +31,9 @@ public class Indy{
 
     public void gameStats(){
         if(getHasTreasure() == true)
-            System.out.format("# of steps %d and Indy has treasure\n", steps);
+            System.out.format("# of steps: %d and Indy has treasure\n", steps);
         else
-            System.out.format("# of steps %d and indy does not have the treasure\n", steps);
+            System.out.format("# of steps: %d and indy does not have the treasure\n", steps);
     }
 
     public int getX(){
