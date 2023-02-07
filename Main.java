@@ -3,7 +3,6 @@ import java.util.*;
 public class Main {
     private static Game game;
     static Scanner sc;
-    static FieldType fieldType[][];
 
     public static void main(String[] args){
         
