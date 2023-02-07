@@ -1,6 +1,6 @@
 public class map{
 
-    public FieldType fieldType[][];
+    private FieldType fieldType[][];
     
     public map(FieldType[][] fieldType){
         this.fieldType = new FieldType[3][3];
